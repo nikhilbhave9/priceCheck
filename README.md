@@ -1,5 +1,21 @@
 # Price-Check - A Hyperledger Fabric Application ![Hyperledger Fabric](https://img.shields.io/badge/Hyperledger%20Fabric-v1.4-E95248) ![Javascript](https://img.shields.io/badge/Javascript-JS-green)
 
+Course Assignment for CS-2361: Blockchain and Cryptocurrencies 
+
+Video demo of the application can be found here: https://youtu.be/8-eotu43IzY
+
+## What is Hyperledger? 
+Hyperledger is a permissioned blockchain network that can be locally bootstrapped. One can use the Hyperledger platform to create decentralized, permissioned applications. 
+
+## What is PriceCheck? 
+PriceCheck is an application that is based on the pre-existing "FabChat" application. A lot of the code has been derived from the FabChat chaincode. 
+
+PriceCheck allows a user to list items for sale at a base price. Users can also propose an increase to the base price of an item which he must have listed earlier. But for the price-increase proposal to take effect, the following check must be passed: 50% of the total number of registered users must have already flagged (and hence, approved) the price increase. 
+
+Once a price-increase proposal for an item receives sufficient approvals the base price of the said item is set to the increased amount. Lastly, every user should also be able to query the latest base price of any listed item.
+
+
+
 [//]: # (SPDX-License-Identifier: CC-BY-4.0)
 
 ## Hyperledger Fabric Samples
